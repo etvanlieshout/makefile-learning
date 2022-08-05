@@ -14,7 +14,7 @@ int main (int argc, char *argv[])
 	while (*num_str != '\0'){
 		num = (num * 10) + (*num_str++ - '0');
 	}
-	printf("your arg is %d\n", num);
+	printf("your arg is: %d\n", num);
 
 	int one_less = sub_one(num);
 	printf("decremented: %d\n", one_less);
