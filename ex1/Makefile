@@ -15,3 +15,7 @@ decr : decrement.o sub_one.o add_one.o
 # $@ refers to all targets (part of rule before colon)
 # $^ refers to all pre-reqs (part of rule after colon)
 # $< refers to the first pre-req
+
+# Clean-up
+clean:
+	@rm *.o decr
